@@ -1,0 +1,107 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .parallax-image {
+    width: 1440px;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.allcaps {
+  text-transform: uppercase;
+}
+
+.tight {
+  line-height: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul.card-list {
+  display: block;
+}
+
+.job .title {
+  margin-bottom: 14px !important;
+}
+
+ul.card-list>li {
+  line-height: 1.0em;
+  margin-bottom: 7px;
+}
+
+#morejobs {
+  display: none;
+}
+
+.text-button {
+  cursor: pointer;
+}
+
+ul.sublist>li {
+  margin-left: 10px;
+}
+
+.skills-title {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0;
+  line-height: 1.2em;
+}
+
+.grey-shadow {
+  text-shadow: 1px 2px 2px rgba(0,0,0, 0.8);
+}
