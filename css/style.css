@@ -6,9 +6,21 @@
  * Made By MaterializeCSS.com
  */
 
+ @font-face {
+  font-family: "OverlockSC";
+  src: local(OverlockSC Regular), url("../fonts/overlock/OverlockSC-Regular.ttf");
+  src: url("../fonts/overlock/OverlockSC-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #f57c00;
+  
+}
+
+.brand-logo {
+  font-family: 'OverlockSC', Georgia, serif;
 }
 
 p {
