@@ -1,11 +1,30 @@
 var jobs, edu, skillTags = [];
 var accentText = "orange-text text-darken-2";
 
+function reachedSection(parallaxElement){
+	var img = $(parallaxElement).find('img.parallax-image')[0];
+	$(img).addClass('focused');
+}
+
+function pastSection(parallaxElement){
+	var img = $(parallaxElement).find('img.parallax-image')[0];
+	$(img).removeClass('focused');
+}
+
 (function($){
   $(function(){
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
+
+    Materialize.scrollFire([
+    { selector: '#hd2', offset: 190, callback: reachedSection },
+    { selector: '#hd2', offset: window.innerHeight, callback: pastSection },
+    { selector: '#hd3', offset: 190, callback: reachedSection },
+    { selector: '#hd3', offset: window.innerHeight, callback: pastSection },
+    { selector: '#hd4', offset: 190, callback: reachedSection },
+    { selector: '#hd4', offset: window.innerHeight, callback: pastSection }
+    ]);
 
     fetchJobs();
     fetchEdu();
