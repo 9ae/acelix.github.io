@@ -161,7 +161,7 @@
 	},
 	{
 		"company": "JW Player, Longtail Video",
-		"title": "Androind Software Engineer",
+		"title": "Android Software Engineer",
 		"start": "2015-04-20",
 		"end": "2016-10-31",
 		"details": [

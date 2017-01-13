@@ -32,7 +32,7 @@
 },
 {
 	"school": "Stony Brook University",
-	"degree": "Bachelor of Science",
+	"degree": "Bachelors",
 	"major": "Applied Mathematics, Computer Science",
 	"start": "Sep 2007",
 	"end": "Dec 2010",
