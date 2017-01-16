@@ -137,7 +137,7 @@
 	},
 	{
 		"company": "Bytemark, Inc",
-		"title": "Full Stack Developer",
+		"title": "Lead Frontend Developer",
 		"start": "2013-07-15",
 		"end": "2014-10-31",
 		"details": [
